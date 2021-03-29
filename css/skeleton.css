@@ -544,6 +544,10 @@ footer img{
   padding: 5rem 0 4rem;
 }
 
+.section-index-top{
+  padding: 5rem 0 9rem;
+}
+
 .grey-bg{
   background-color: #f0f0f0;
 }
@@ -577,10 +581,9 @@ footer img{
 }
 
 .snow-bg{
-  background-image: url(../images/home-bg-snow.jpg);
+  background-image: url(../images/four-seasons-bg.jpg);
   background-size: cover;
-  background-position: bottom;
-  color: white;
+  background-position: center;
 }
 
 .porto-logo img{
@@ -684,6 +687,10 @@ there.
 
   .porto{
     padding-bottom: 20px;
+  }
+
+  .snow-bg{
+    background-size: auto;
   }
 }
 
