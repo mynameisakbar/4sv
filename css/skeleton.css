@@ -589,6 +589,23 @@ footer img{
 
 .porto-logo img{
   max-width: 125px;
+  filter: grayscale(100%);
+}
+
+.section-logo img{
+  filter: grayscale(100%);
+}
+
+.porto-logo img:hover{
+  transform: scale(1.2);
+  filter: none;
+  transition: transform .2s;
+}
+
+.section-logo img:hover{
+  transform: scale(1.1);
+  filter: none;
+  transition: transform .2s;
 }
 
 .affiliate-logo img{
@@ -695,7 +712,7 @@ there.
     display: none;
   }
 
-  .porto{
+  .portfolio-section{
     padding-bottom: 20px;
   }
 
