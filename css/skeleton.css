@@ -602,6 +602,12 @@ footer img{
   transition: transform .2s;
 }
 
+.porto:hover .hover-effect{
+  transform: scale(1.2);
+  filter: none;
+  transition: transform .2s;
+}
+
 .section-logo img:hover{
   transform: scale(1.1);
   filter: none;
