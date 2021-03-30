@@ -608,6 +608,12 @@ footer img{
   transition: transform .2s;
 }
 
+.porto:hover .button{
+  color: #fff;
+  background-color: black;
+  border-color: black;
+}
+
 .section-logo img:hover{
   transform: scale(1.1);
   filter: none;
