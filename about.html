@@ -23,6 +23,8 @@
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+  
+
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
@@ -61,7 +63,7 @@
   <div class="section intro-top">
       <div class="container">
         <h1 class="section-heading">About Us</h1>
-        <p class="section-description">Four Seasons Ventures team come from a diverse background. </p>
+        <!--p class="section-description">Four Seasons Ventures team come from a diverse background. </p-->
 
       </div>
   </div>
@@ -87,8 +89,19 @@
             <a class="social-button" href="#"><img src="images/telegram-black.png"/></a-->
             <a class="social-button" href="https://www.linkedin.com/in/benjamin-clarke-69b4bb41/"><img src="images/linkedin-black.png"/></a>
           </div>
-          <div class="one-half column team">
-             <img class="u-max-full-width" src="images/team/luis.jpg">
+          <div class="one-half column team ">
+             <img class="u-max-full-width luis-disco" src="images/team/luis.jpg" onmouseover="hover(this);" onmouseout="unhover(this);">
+             <!-- Easter egg JS
+              –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+              <script type="text/javascript">
+                function hover(element) {
+                  element.setAttribute('src', 'images/luis-disco.gif');
+                }
+
+                function unhover(element) {
+                  element.setAttribute('src', 'images/team/luis.jpg');
+                }
+              </script>
              <h4 class="section-heading">Luis Ferreira Marado</h4>
              <p class="section-description">
               With a background as a Real Estate investor and manager for over 10 years, Luis co-founded and ran EOwireless, an internet infrastructure company in Portugal, between 2005-2011. He discovered Blockchain in 2017 and has been investing in Cryptoassets since that time.
