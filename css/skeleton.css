@@ -434,7 +434,7 @@ nav a{
   display: block;
   float: left;
   font-size: 2em;
-  padding: 10px 20px 10px 0px;
+  padding: 10px 20px 0px 0px;
   text-decoration: none;
 }
 
@@ -644,6 +644,10 @@ footer img{
 }
 
 .affiliate-logo{
+  text-align: center;
+}
+
+.home-about{
   text-align: center;
 }
 
