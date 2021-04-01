@@ -759,6 +759,10 @@ there.
   .mobile-half{
     width: 50%!important;
   }
+
+  .featured-affiliates{
+    text-align: center;
+  }
 }
 
 /* Larger than mobile */
