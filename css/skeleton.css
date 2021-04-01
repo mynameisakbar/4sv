@@ -721,7 +721,7 @@ there.
 */
 
 /* Smaller than tablet */
-@media screen and (max-width:750px){
+@media (max-width:768px){
 
   .navbar a {
     float: none;
@@ -758,6 +758,7 @@ there.
 
   .mobile-half{
     width: 50%!important;
+    margin-left: 0!important;
   }
 
   .featured-affiliates{
@@ -772,7 +773,7 @@ there.
 @media (min-width: 550px) {}
 
 /* Larger than tablet */
-@media (min-width: 750px) {
+@media (min-width: 768px) {
   .box-flip-1, .box-flip-2{
     float: right;}
 
