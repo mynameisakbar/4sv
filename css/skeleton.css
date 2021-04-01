@@ -755,6 +755,10 @@ there.
   .section{
     padding:2rem 0 2rem;
   }
+
+  .mobile-half{
+    width: 50%!important;
+  }
 }
 
 /* Larger than mobile */
