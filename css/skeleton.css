@@ -599,13 +599,13 @@ footer img{
 .porto-logo img:hover{
   transform: scale(1.2);
   filter: none;
-  transition: transform .2s;
+  transition: transform .2s ease-in-out;
 }
 
 .porto:hover .hover-effect{
   transform: scale(1.2);
   filter: none;
-  transition: transform .2s;
+  transition: transform .2s ease-in-out;
 }
 
 .porto:hover .button{
@@ -617,7 +617,7 @@ footer img{
 .section-logo img:hover{
   transform: scale(1.1);
   filter: none;
-  transition: transform .2s;
+  transition: transform .2s ease-in-out;
 }
 
 .affiliate-logo img{
@@ -667,72 +667,31 @@ footer img{
   padding: 5rem 0 5rem!important;
 }
 
-/* Overlay effect CSS 
-.porto {
+/* Overlay effect CSS */
+.overlay-box{
+  background-color: black;
+  height: 30px;
+  width: 100%;
   position: relative;
-  width: 90%;
-  max-width: 400px;
-  margin: auto;
-  overflow: hidden;
-}
-
-.porto .porto-logo {
-  background: rgba(0,0,0,0.7);
-  position: absolute;
-  height: 99%;
-  width: 100%;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
+  bottom: 15px;
+  left: 0px;
   opacity: 0;
-  -webkit-transition: all 0.4s ease-in-out 0s;
-  -moz-transition: all 0.4s ease-in-out 0s;
-  transition: all 0.4s ease-in-out 0s;
 }
 
-.porto:hover .porto-logo{
+.porto:hover .overlay-box{
+  transition: all .2s ease-in-out;
   opacity: 1;
 }
 
-.content-image{
-  width: 100%;
+.porto:hover .fp-main{
+  transform: scale(1.2);
+  filter: none;
+  transition: transform .2s ease-in-out;
 }
 
-.content-details {
-  position: absolute;
-  text-align: center;
-  padding-left: 1em;
-  padding-right: 1em;
-  width: 100%;
-  top: 50%;
-  left: 50%;
-  opacity: 0;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  -moz-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
-}
+.project-name{
+  color: white;
 
-.content:hover .content-details{
-  top: 50%;
-  left: 50%;
-  opacity: 1;
-}
-
-.content-details h3{
-  color: #fff;
-  font-weight: 500;
-  letter-spacing: 0.15em;
-  margin-bottom: 0.5em;
-  text-transform: uppercase;
-}
-
-.content-details p{
-  color: #fff;
-  font-size: 0.8em;
 }
 
 /* Spacing
@@ -844,6 +803,11 @@ there.
 
   .featured-affiliates{
     text-align: center;
+  }
+
+  .overlay-box{
+    width: 80%;
+    left: 22px;
   }
 }
 
