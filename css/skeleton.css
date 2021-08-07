@@ -592,8 +592,18 @@ footer img{
   filter: grayscale(100%);
 }
 
-.section-logo img{
+.section-logo img, .testimonial-pic img{
   filter: grayscale(100%);
+}
+
+.testimonial-copy{
+  font-style: italic;
+}
+
+.testimonial-desc a{
+  text-decoration: underline;
+  color: #000000;
+  font-weight: bold;
 }
 
 .porto-logo img:hover{
